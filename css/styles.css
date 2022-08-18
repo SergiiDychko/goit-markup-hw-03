@@ -110,10 +110,7 @@ body {
   min-height: 80px;
   border-bottom: #ececec solid 1px;
 }
-.header-nav-box {
-  display: flex;
-}
-.header-nav-box > .logo {
+.logo {
   margin-right: 93px;
 }
 .site-nav.list,
