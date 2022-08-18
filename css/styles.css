@@ -194,10 +194,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.features-list,
-.skills-list,
-.team-list,
-.exemple-list {
+.features-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -213,10 +210,22 @@ body {
 .section.skills {
   padding-top: 0;
 }
+.skills-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 /* team styles */
 .section.team {
   background-color: var(--bg-color-light);
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 .team-list .title {
   color: var(--title-text-color);
@@ -275,12 +284,20 @@ body {
   margin-bottom: 50px;
 }
 .exemple {
+  width: 370px;
   border: var(--exemple-border-color) solid 1px;
 }
-.exemple:not(:nth-last-child(-n+3)) {
-  margin-bottom: 30px;
+.exemple-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
+
+/* .exemple:not(:nth-last-child(-n+3)) {
+  margin-bottom: 30px;
+} */
 .exemple-img {
+  width: 100%;
   margin-bottom: 20px;
 }
 .exemple .title {
