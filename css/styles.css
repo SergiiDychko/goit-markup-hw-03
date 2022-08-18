@@ -83,6 +83,13 @@ body {
 }
 
 /* header styles */
+.nav-box {
+  display: flex;
+  align-items: center;
+}
+.logo .link {
+  margin-right: 93px;
+}
 .site-nav .link,
 .header-contacts .link {
   font-weight: 500;
@@ -107,17 +114,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 80px;
   border-bottom: #ececec solid 1px;
-}
-.logo {
-  margin-right: 93px;
 }
 .site-nav.list,
 .header-contacts.list {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 /* hero styles */
@@ -340,4 +345,7 @@ body {
 }
 .link.map {
   color: var(--secondary-accent-color);
+}
+.link.no-margin {
+  margin: 0;
 }
