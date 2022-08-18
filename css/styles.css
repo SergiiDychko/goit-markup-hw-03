@@ -110,11 +110,13 @@ body {
 .link.actual {
   color: var(--primary-accent-color);
 }
+.page-header {
+  border-bottom: #ececec solid 1px;
+}
 .page-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: #ececec solid 1px;
 }
 .site-nav.list,
 .header-contacts.list {
